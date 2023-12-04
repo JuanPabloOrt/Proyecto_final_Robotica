@@ -4,6 +4,7 @@ Integrantes
 Juan Barrera_Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan PAblo Ortiz
 
 #Entregables
+
 1.Descripción
 2.Diagrama de flujo acciones
 3.Gripper
@@ -14,9 +15,17 @@ Juan Barrera_Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan PAbl
 
 
 ##Descripción
+
 ##Diagrama de flujo acciones
+
 ##Gripper
+
 ##Modelo robotstudio
+
 ##Codigo Rapid
+
+
 ##Comparacion tiempo manual vs automatizado
+
 ##Presentación y video
+
