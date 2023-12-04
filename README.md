@@ -3,7 +3,7 @@ Integrantes
 
 Juan Barrera_Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan PAblo Ortiz
 
-#Entregables
+# Entregables
 
 1.Descripción
 2.Diagrama de flujo acciones
@@ -14,18 +14,18 @@ Juan Barrera_Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan PAbl
 7.Presentación y video
 
 
-##Descripción
+## Descripción
 
-##Diagrama de flujo acciones
+## Diagrama de flujo acciones
 
-##Gripper
+## Gripper
 
-##Modelo robotstudio
+## Modelo robotstudio
 
-##Codigo Rapid
+## Codigo Rapid
 
 
-##Comparacion tiempo manual vs automatizado
+## Comparacion tiempo manual vs automatizado
 
-##Presentación y video
+## Presentación y video
 
