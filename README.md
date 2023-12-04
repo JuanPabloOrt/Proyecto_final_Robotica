@@ -22,7 +22,11 @@ Juan Barrera, Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan Pab
 
 ## Modelo robotstudio
 Interfaz HMI:
-Para la elaboracion de esta interfaz se uso el sdk 'ScreenMaker' el cual se puede complementa complementa 'RobotStudio' y permite la creacion de este tipo de interfaces. A continuacion se muestra el modelo de la interfaz creada:![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/fc9c64ce-5865-4b67-8b70-355d9ebe7e66)
+Para la elaboracion de esta interfaz se uso el sdk 'ScreenMaker' el cual se puede complementa complementa 'RobotStudio' y permite la creacion de este tipo de interfaces. A continuacion se muestra el modelo de la interfaz creada:
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/8da08764-7069-448e-bf93-232f323218f9)
+Esta interfaz esta divida en dos zonas principales, la primera es la zona 'Ubicacion de los objetos' esta zona muestra las 6 diferentes areas de la estanteria en la cual se encuentran los objetos a recoger. Por cada una de estas areas hay dos elementos, el primero es un boton el cual permite seleccionar la el area a la que se quiere llegar dirigiendo el robot hacia ese punto. El segundo elemento es un led el cual indica si la respectiva posicion fue escogida previamente en el ciclo de trabajo. En la segunda zona de la interfaz, se observan las tres posiciones de la banda transportadora mediante el uso de leds que indican si la respectiva posicion ya fue ocupada en el ciclo de trabajo.
+
+
 
 
 ## Codigo Rapid
