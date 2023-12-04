@@ -34,6 +34,10 @@ En el repositorio se encuentra un video con el nombre 'Simulaciones.mp4' como su
 
 ## Codigo Rapid
 Esta seccion explicara la logica usada en el codigo de RAPID para la solucion del problema propuesto (se dejara de lado la descripcion detallada de la creacion de las rutinas de movimiento, ya que para eso solo se definen los puntos en el espacio de trabajo del robot y se recorren uno a uno) asi como la conexion con los distintos elementos de la interfaz HMI.
+Definicion de variables:
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/b72d4d27-3fe5-47ab-be20-534a53806014)
+Todas las variables tipos 'PERS' son aquellas que se usan para comunicarse con la interfaz HM, entes caso se usaron unicamente variables booleanas ya que unicamente era necesario indicar estados binarios. En primer lugar, las variables cuyo nombre inicia con la palabra 'trayectoria'
+
 
 ## Comparacion tiempo manual vs automatizado
 
