@@ -27,7 +27,7 @@ Para la elaboracion de esta interfaz se uso el sdk 'ScreenMaker' el cual se pued
 
 Esta interfaz esta divida en dos zonas principales, la primera es la zona 'Ubicacion de los objetos' esta zona muestra las 6 diferentes areas de la estanteria en la cual se encuentran los objetos a recoger. Por cada una de estas areas hay dos elementos, el primero es un boton el cual permite seleccionar la el area a la que se quiere llegar dirigiendo el robot hacia ese punto. El segundo elemento es un led el cual indica si la respectiva posicion fue escogida previamente en el ciclo de trabajo. En la segunda zona de la interfaz, se observan las tres posiciones de la banda transportadora mediante el uso de leds que indican si la respectiva posicion ya fue ocupada en el ciclo de trabajo.
 La conexion de los diferentes elementos con el programa de rapid se realizo mediante la escritura o lectura de variables en el programa segun sea el caso, la logica bajo la cual esto funcionan cada una de las variables seran explicadas en la seccion 'Codigo RAPID'.
-En el repositorio se encuentra un video con el nombre 'Simulaciones.mp4' como su nombre lo indica, este video mostrara el resultado de las simulaciones realizadas previas a la implementacion en los robots del LabSIR.
+En el repositorio se encuentra el video explicativo, este video mostrara el resultado de las simulaciones realizadas previas a la implementacion en los robots del LabSIR.
 
 
 
