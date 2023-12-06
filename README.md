@@ -16,6 +16,64 @@ Juan Barrera, Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan Pab
 
 ## Descripción
 
+**Descripción de la Solución: Automatización de Procesos de Pick & Place**
+
+Para abordar el problema de optimizar los procesos de alistamiento de pedidos mediante la implementación de un sistema robotizado, se ha desarrollado una solución integral que combina la automatización de tareas, el diseño de herramientas especializadas y la creación de una interfaz humano-máquina (HMI) para facilitar la interacción y supervisión del sistema.
+
+### Proceso de Alistamiento:
+
+1. **Alistamiento Manual:**
+   Se llevó a cabo una fase inicial de alistamiento manual para comprender el tiempo promedio necesario para preparar combinaciones específicas de productos en la estantería de 6 posiciones (A1, A2, B1, B2, C1, C2). Este tiempo se midió con el objetivo de establecer una referencia para evaluar la eficiencia del proceso automatizado.
+
+2. **Diseño y Construcción del Gripper:**
+   Se diseñó un gripper personalizado capaz de adaptarse fácilmente a los cilindros de doble efecto disponibles en el LabSIR. El gripper se controla mediante una señal digital conectada a una electroválvula. 
+   ![Gripper Design](url_del_diseño_del_gripper)
+
+   *Imagen: Diseño del Gripper.*
+
+3. **Elementos Neumáticos:**
+   Se seleccionaron y utilizaron una electroválvula 5/2 y acoples disponibles en el LabSIR para construir el gripper. Se aseguró que el diseño permitiera un fácil ajuste y posicionamiento de los dedos del gripper sobre los cilindros, minimizando la necesidad de desmontar otros componentes.
+
+   ![Elementos Neumáticos](url_de_elementos_neumaticos)
+
+   *Imagen: Elementos Neumáticos Disponibles.*
+
+### Alistamiento de la Estantería:
+
+- **Posicionamiento de Elementos:**
+  Las piezas fueron ubicadas en posiciones aleatorias en la estantería, considerando la disposición de 3 elementos diferentes en las 6 posiciones disponibles.
+
+- **Ajustes con Brazo Inmóvil:**
+  Todos los ajustes en la estantería y las piezas se realizaron con el brazo manipulador inmóvil al inicio del proceso.
+
+- **Análisis de Tiempo Manual:**
+  Se realizaron pruebas de alistamiento manual con una sola mano para determinar el tiempo promedio necesario para diferentes combinaciones de objetos. Este análisis proporciona una referencia para evaluar la eficiencia del proceso automatizado.
+
+### Proceso Automatizado:
+
+- **Interfaz Gráfica:**
+  Se diseñó una interfaz humano-máquina (HMI) utilizando la herramienta ScreenMaker de RobotStudio. La interfaz permite la selección de objetos desde la estantería y su posicionamiento en la zona de alistamiento mediante la banda transportadora.
+
+   ![Interfaz Gráfica](url_de_interfaz_grafica)
+
+   *Imagen: Interfaz Gráfica de la Herramienta.*
+
+- **Ejemplo de Proceso:**
+  Se presentaron ejemplos de secuencias de posicionamiento de objetos sobre la banda transportadora, asegurando que siempre se respeten las posiciones finales de los objetos, independientemente del orden de llegada.
+
+### Consideraciones Finales:
+
+- **Dimensiones Reales:**
+  El diseño de la herramienta se ajusta a las dimensiones reales de la construcción, garantizando una integración adecuada con los equipos disponibles en el LabSIR.
+
+- **Velocidades y Parámetros de Movimiento:**
+  Las velocidades, zonas de aproximación y otros parámetros de movimiento se determinan de acuerdo con las condiciones de trabajo seguro y las indicaciones del docente en el laboratorio.
+
+- **Documentación Completa:**
+  Se documentó todo el proceso del proyecto, incluyendo dificultades encontradas y lecciones aprendidas. Esta documentación se presenta de manera detallada para facilitar la comprensión y evaluación del trabajo realizado por otros equipos.
+
+La solución propuesta no solo aborda la automatización del proceso de Pick & Place, sino que también demuestra una cuidadosa consideración de los detalles técnicos, la eficiencia del diseño y la usabilidad a través de la interfaz gráfica.
+
 ## Diagrama de flujo acciones
 Para la explicación del proceso por medio de diagramas de flujo primero se hizo un diagrama del código principal, para luego realizar el respectivo diagrama de cada una de las subrutinas.
 
