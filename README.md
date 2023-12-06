@@ -52,6 +52,8 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 - **Análisis de Tiempo Manual:**
   Se realizaron pruebas de alistamiento manual con una sola mano para determinar el tiempo promedio necesario para diferentes combinaciones de objetos. Este análisis proporciona una referencia para evaluar la efectividad del proceso automatizado.
 
+  A continuación se muestra la disposicion de los elemntos fisicos, con los cuales se realizará el alistamiento Pick and Place
+
 ### Proceso Automatizado:
 
 - **Interfaz Gráfica:**
