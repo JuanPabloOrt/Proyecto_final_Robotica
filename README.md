@@ -47,7 +47,7 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
   Todos los ajustes en la estantería y las piezas se realizaron con el brazo manipulador inmóvil al inicio del proceso.
 
 - **Análisis de Tiempo Manual:**
-  Se realizaron pruebas de alistamiento manual con una sola mano para determinar el tiempo promedio necesario para diferentes combinaciones de objetos. Este análisis proporciona una referencia para evaluar la eficiencia del proceso automatizado.
+  Se realizaron pruebas de alistamiento manual con una sola mano para determinar el tiempo promedio necesario para diferentes combinaciones de objetos. Este análisis proporciona una referencia para evaluar la efectividad del proceso automatizado.
 
 ### Proceso Automatizado:
 
@@ -74,18 +74,18 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 - **Documentación Completa:**
   Se documentó todo el proceso del proyecto, incluyendo dificultades encontradas y lecciones aprendidas. Esta documentación se presenta de manera detallada para facilitar la comprensión y evaluación del trabajo realizado por otros equipos.
 
-La solución propuesta no solo aborda la automatización del proceso de Pick & Place, sino que también demuestra una cuidadosa consideración de los detalles técnicos, la eficiencia del diseño y la usabilidad a través de la interfaz gráfica.
+La solución propuesta no solo aborda la automatización del proceso de Pick & Place, sino que también demuestra una cuidadosa consideración de los detalles técnicos, la efectividad del diseño y la usabilidad a través de la interfaz gráfica.
 
 ## Diagrama de flujo acciones
 Para la explicación del proceso por medio de diagramas de flujo primero se hizo un diagrama del código principal, para luego realizar el respectivo diagrama de cada una de las subrutinas.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/3e48a617-3f0f-4374-b8e4-5315ce587827)
 
-Para la rutina principal, lo primeor que se hace es enviar el robot a posición de "HOME" donde todas sus posicones articulares se ponen en 0. Luego se abre el gripper para preparar la erramienta para tomar algún objeto, luego con ayuda de un contador se delimita cuántas veces se va a realizar el ciclo principal y co un nuevocondicional se indica la espera a que se acrive un botón, que sería de la interfaz.
+Para la rutina principal, lo primeor que se hace es enviar el robot a posición de "HOME" donde todas sus posicones articulares se ponen en 0. Luego se abre el gripper para preparar la herramienta para tomar algún objeto, luego con ayuda de un contador se delimita cuántas veces se va a realizar el ciclo principal y con un nuevo condicional se indica la espera a que se active un botón, que sería de la interfaz.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/aaa26204-bd25-439d-a15c-21701afc1b1f)
 
-Para la rutina de toma de producto se toma el dato del botón que fue presionado y se revisa uno a uno cuál fue para realizar la rutina respectiva.
+Para la rutina de toma de producto se toma el dato del botón que fue presionado y se revisa uno a uno cuál fue, para asi realizar la rutina respectiva.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/8400e2d5-16f7-4d70-99b1-d30866adb00b)
 
@@ -94,7 +94,7 @@ Para la rutina encargada de dejar los productos en la banda se revisa en órden 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/a74977b7-564e-4d9b-b6a9-fb179ea57de9)
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/300c934d-d081-4de4-b721-dc855754854e)
 
-Para las rutinas de las trayectorias de los conjuntos A Y B se sigue la misma lógica, se dirige primero a un posición de "retorno" que tiene una funci´n similar al "HOME" pero este es respecto a la posicón de la pieza en función de la psición del estante, no de valores articulares. Luego se dirige a la posición respectiva por medio de las trayectorias definidas en el RobotStudio, para después cerrar el gripper y agarrar el proucto. Seguido a esto vuelve a la posicion de "retorno" siguiendo la misa trayectoria anterior en sentido contrario.
+Para las rutinas de las trayectorias de los conjuntos A Y B se sigue la misma lógica, se dirige primero a un posición de "retorno" que tiene una función similar al "HOME" pero este es respecto a la posición de la pieza en función de la posición del estante, no de valores articulares. Luego se dirige a la posición respectiva por medio de las trayectorias definidas en el RobotStudio, para después cerrar el gripper y agarrar el proucto. Seguido a esto vuelve a la posicion de "retorno" siguiendo la misma trayectoria anterior en sentido contrario.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/07478ca1-7aa6-4cc3-b852-a6f433061374)
 
