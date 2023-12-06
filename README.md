@@ -36,14 +36,15 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 
    ![Elementos Neumáticos](url_de_elementos_neumaticos)
 
-   *Imagen: Elementos Neumáticos Disponibles.*
+
 
 ### Alistamiento de la Estantería:
 
 - **Posicionamiento de Elementos:**
   Las piezas fueron ubicadas en posiciones aleatorias en la estantería, considerando la disposición de 3 elementos diferentes en las 6 posiciones disponibles.
 
-- **Ajustes con Brazo Inmóvil:**
+- **Ajustes con ![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/2a870b4d-d9ff-4493-9988-4c9ae5e61f4f)
+Brazo Inmóvil:**
   Todos los ajustes en la estantería y las piezas se realizaron con el brazo manipulador inmóvil al inicio del proceso.
 
 - **Análisis de Tiempo Manual:**
