@@ -94,7 +94,7 @@ Para la rutina encargada de dejar los productos en la banda se revisa en órden 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/a74977b7-564e-4d9b-b6a9-fb179ea57de9)
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/300c934d-d081-4de4-b721-dc855754854e)
 
-Para las rutinas de las trayectorias de los conjuntos A Y B se sigue la misma lógica, se dirige primero a un posición de "retorno" que tiene una función similar al "HOME" pero este es respecto a la posición de la pieza en función de la posición del estante, no de valores articulares. Luego se dirige a la posición respectiva por medio de las trayectorias definidas en el RobotStudio, para después cerrar el gripper y agarrar el proucto. Seguido a esto vuelve a la posicion de "retorno" siguiendo la misma trayectoria anterior en sentido contrario.
+Para las rutinas de las trayectorias de los conjuntos A Y B se sigue la misma lógica, se dirige primero a un posición de "retorno" que tiene una función similar al "HOME" pero este es respecto a la posición de la pieza en función de la posición del estante, no de valores articulares. Luego se dirige a la posición respectiva por medio de las trayectorias definidas en el RobotStudio, para después cerrar el gripper y agarrar el producto. Seguido a esto vuelve a la posicion de "retorno" siguiendo la misma trayectoria anterior en sentido contrario.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/07478ca1-7aa6-4cc3-b852-a6f433061374)
 
@@ -119,7 +119,7 @@ Todas las variables tipos 'PERS' son aquellas que se usan para comunicarse con l
 #### Lógica del Programa
 Luego de definir as variables se hace uso de los procesos presentados anteriormente en los diagramas de flujo:
 
-Primero, con la ayuda de un contador, se limita a que el ciclo principal solo se ejecute la cantidad de veces nesearia, en este caso son 3, debido a la cantidad de productos que se van a utilizar.
+Primero, con la ayuda de un contador, se limita a que el ciclo principal solo se ejecute la cantidad de veces necesaria, en este caso son 3, debido a la cantidad de productos que se van a utilizar.
 
 Luego se espera a que alguno de los botones de la interfaz sea presionado y se evalúan, en orden, las variables relacionadas a las posciones del conjunto A y el conjunto B para que el robot realice la rutina correspondiente al botón seleccionado, finalmente se retorna a "FALSE" la variable de la rutina para que esta no se siga ejecutando la siguente vez que se realice el ciclo principal. 
 
