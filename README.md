@@ -32,7 +32,8 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
    Se diseñó un gripper personalizado capaz de adaptarse fácilmente a los cilindros de doble efecto disponibles en el LabSIR. El gripper se controla mediante una señal digital conectada a una electroválvula. A continuaciónse muestra el griper en el montaje.
    ![Gripper Design](url_del_diseño_del_gripper)
 
-   *Imagen: Diseño del Gripper.*
+   ![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/bfb14304-77e9-4dfd-ad70-90cf4fb0b19e)
+
 
 3. **Elementos Neumáticos:**
    Se seleccionaron y utilizaron una electroválvula 5/2 y acoples disponibles en el LabSIR para construir el gripper. Se aseguró que el diseño permitiera un fácil ajuste y posicionamiento de los dedos del gripper sobre los cilindros, minimizando la necesidad de desmontar otros componentes.
@@ -53,6 +54,9 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
   Se realizaron pruebas de alistamiento manual con una sola mano para determinar el tiempo promedio necesario para diferentes combinaciones de objetos. Este análisis proporciona una referencia para evaluar la efectividad del proceso automatizado.
 
   A continuación se muestra la disposicion de los elemntos fisicos, con los cuales se realizará el alistamiento Pick and Place
+
+  ![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/8169e50d-5dd4-4b2d-ba36-fe113dea8da8)
+
 
 ### Proceso Automatizado:
 
