@@ -43,7 +43,7 @@ Para las rutinas de las trayectorias deL conjunto P se sigue una lógica muy sim
 ## Gripper
 
 ## Modelo robotstudio
-Interfaz HMI:
+### Interfaz HMI:
 Para la elaboracion de esta interfaz se uso el sdk 'ScreenMaker' el cual se puede complementa complementa 'RobotStudio' y permite la creacion de este tipo de interfaces. A continuacion se muestra el modelo de la interfaz creada:
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/8da08764-7069-448e-bf93-232f323218f9)
 
@@ -56,6 +56,7 @@ En el repositorio se encuentra el video explicativo, este video mostrara el resu
 
 ## Codigo Rapid
 Esta seccion explicara la logica usada en el codigo de RAPID para la solucion del problema propuesto (se dejara de lado la descripcion detallada de la creacion de las rutinas de movimiento, ya que para eso solo se definen los puntos en el espacio de trabajo del robot y se recorren uno a uno) asi como la conexion con los distintos elementos de la interfaz HMI.
+![Robotstudio](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/b5ef4aab-e12d-40c4-818e-4c2aa47a3279)
 
 ### Definicion de variables:
 
