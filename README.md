@@ -26,7 +26,7 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 ### Proceso de Alistamiento:
 
 1. **Alistamiento Manual:**
-   Se llevó a cabo una fase inicial de alistamiento manual para comprender el tiempo promedio necesario para preparar combinaciones específicas de productos en la estantería de 6 posiciones (A1, A2, B1, B2, C1, C2). Este tiempo se midió con el objetivo de establecer una referencia para evaluar la eficiencia del proceso automatizado.
+   Se llevó a cabo una fase inicial de alistamiento manual para comprender el tiempo promedio necesario para preparar combinaciones específicas de productos en la estantería de 6 posiciones (A1, A2, A3, B1, B2, B3). Este tiempo se midió con el objetivo de establecer una referencia para evaluar la eficiencia del proceso automatizado.
 
 2. **Diseño y Construcción del Gripper:**
    Se diseñó un gripper personalizado capaz de adaptarse fácilmente a los cilindros de doble efecto disponibles en el LabSIR. El gripper se controla mediante una señal digital conectada a una electroválvula. A continuaciónse muestra el griper en el montaje.
