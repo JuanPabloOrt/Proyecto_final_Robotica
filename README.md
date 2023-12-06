@@ -18,7 +18,10 @@ Juan Barrera, Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan Pab
 
 **Descripción de la Solución: Automatización de Procesos de Pick & Place**
 
-Para abordar el problema de optimizar los procesos de alistamiento de pedidos mediante la implementación de un sistema robotizado, se ha desarrollado una solución integral que combina la automatización de tareas, el diseño de herramientas especializadas y la creación de una interfaz humano-máquina (HMI) para facilitar la interacción y supervisión del sistema.
+Para abordar el problema de optimizar los procesos de alistamiento de pedidos mediante la implementación de un sistema robotizado, se ha desarrollado una solución integral que combina la automatización de tareas, el diseño de herramientas especializadas y la creación de una interfaz humano-máquina (HMI) para facilitar la interacción y supervisión del sistema. Para esto se utilizará el robot ABB IBR40  del laboratoria LabSir
+
+![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/a5cd322e-e618-4b76-bb01-ab68db37b406)
+
 
 ### Proceso de Alistamiento:
 
@@ -26,7 +29,7 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
    Se llevó a cabo una fase inicial de alistamiento manual para comprender el tiempo promedio necesario para preparar combinaciones específicas de productos en la estantería de 6 posiciones (A1, A2, B1, B2, C1, C2). Este tiempo se midió con el objetivo de establecer una referencia para evaluar la eficiencia del proceso automatizado.
 
 2. **Diseño y Construcción del Gripper:**
-   Se diseñó un gripper personalizado capaz de adaptarse fácilmente a los cilindros de doble efecto disponibles en el LabSIR. El gripper se controla mediante una señal digital conectada a una electroválvula. 
+   Se diseñó un gripper personalizado capaz de adaptarse fácilmente a los cilindros de doble efecto disponibles en el LabSIR. El gripper se controla mediante una señal digital conectada a una electroválvula. A continuaciónse muestra el griper en el montaje.
    ![Gripper Design](url_del_diseño_del_gripper)
 
    *Imagen: Diseño del Gripper.*
@@ -36,15 +39,14 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 
    ![Elementos Neumáticos](url_de_elementos_neumaticos)
 
-
+![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/2a870b4d-d9ff-4493-9988-4c9ae5e61f4f)
 
 ### Alistamiento de la Estantería:
 
 - **Posicionamiento de Elementos:**
   Las piezas fueron ubicadas en posiciones aleatorias en la estantería, considerando la disposición de 3 elementos diferentes en las 6 posiciones disponibles.
 
-- **Ajustes con ![Unbenannt](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144562439/2a870b4d-d9ff-4493-9988-4c9ae5e61f4f)
-Brazo Inmóvil:**
+- **Ajustes con Brazo Inmóvil:**
   Todos los ajustes en la estantería y las piezas se realizaron con el brazo manipulador inmóvil al inicio del proceso.
 
 - **Análisis de Tiempo Manual:**
