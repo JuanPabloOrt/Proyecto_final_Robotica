@@ -68,6 +68,8 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 
 - **Velocidades y Parámetros de Movimiento:**
   Las velocidades, zonas de aproximación y otros parámetros de movimiento se determinan de acuerdo con las condiciones de trabajo seguro y las indicaciones del docente en el laboratorio.
+  ![Parametros](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/5a429df1-f9f4-4772-9ef7-cc11bae27aed)
+
 
 - **Documentación Completa:**
   Se documentó todo el proceso del proyecto, incluyendo dificultades encontradas y lecciones aprendidas. Esta documentación se presenta de manera detallada para facilitar la comprensión y evaluación del trabajo realizado por otros equipos.
@@ -101,6 +103,29 @@ Para las rutinas de las trayectorias deL conjunto P se sigue una lógica muy sim
 ## Gripper
 
 ## Modelo robotstudio
+
+## Modelo robotstudio
+![Robotstudio](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/b5ef4aab-e12d-40c4-818e-4c2aa47a3279)
+### Codigo Rapid
+Esta seccion explicara la logica usada en el codigo de RAPID para la solucion del problema propuesto (se dejara de lado la descripcion detallada de la creacion de las rutinas de movimiento, ya que para eso solo se definen los puntos en el espacio de trabajo del robot y se recorren uno a uno) asi como la conexion con los distintos elementos de la interfaz HMI.
+
+
+#### Definicion de variables:
+
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/b72d4d27-3fe5-47ab-be20-534a53806014)
+
+Todas las variables tipos 'PERS' son aquellas que se usan para comunicarse con la interfaz HM, entes caso se usaron unicamente variables booleanas ya que unicamente era necesario indicar estados binarios. En primer lugar, las variables cuyo nombre inicia con la palabra 'trayectoria' indican a cual de las distintas ubicaciones de la estanteria debe ir el robot. Todas estas variables inician con un valor 'False' y al presionar el boton respectivo en la interfaz HM su valor cambia a 'True' haciendo que el robot se mueva. Luego se encuentran las variables que inician con la palabra 'Disp' que se usa como abreviacion de 'Disponible', estas variables estan asociadas a los led de cada una de las posiciones de los objetos de la estanteria  e indican su disponibilidad. Por lo tanto estas variables tienen un valor inicial 'True' y cuando son recogidos por el robot este cambia a 'False' indicando que en esta ubicacion de la estanteria ya no hay ningun objeto a recoger. Finalmente, las variables que inician con la palabra 'Banda' representan las tres posiciones posibles que se usan para ubicar los objetos a lo largo de la banda transportadora y estan asociadas a los led de su respectiva posicion. Ya que la banda transportadora inicia sin ningun objeto sobre ella, estas variables incian con un valor 'False' y a medida de que se ubican objetos sobre la banda se van cambiando a 'True'.
+
+#### Lógica del Programa
+Luego de definir as variables se hace uso de los procesos presentados anteriormente en los diagramas de flujo:
+
+Primero, con la ayuda de un contador, se limita a que el ciclo principal solo se ejecute la cantidad de veces nesearia, en este caso son 3, debido a la cantidad de productos que se van a utilizar.
+
+Luego se espera a que alguno de los botones de la interfaz sea presionado y se evalúan, en orden, las variables relacionadas a las posciones del conjunto A y el conjunto B para que el robot realice la rutina correspondiente al botón seleccionado, finalmente se retorna a "FALSE" la variable de la rutina para que esta no se siga ejecutando la siguente vez que se realice el ciclo principal. 
+
+Después de realizar la rutina selecconada se procede a revisar en orden las posiciones en la banda. Cuando se encuentra que una está disponible el robot realiza la rutina respectiva del conjunto de trayectorias P, y se cabia el valor de la variable de la posición para indicar que esta se encuentra ocupada.
+
+
 ### Interfaz HMI:
 Para la elaboracion de esta interfaz se uso el sdk 'ScreenMaker' el cual se puede complementa complementa 'RobotStudio' y permite la creacion de este tipo de interfaces. A continuacion se muestra el modelo de la interfaz creada:
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/8da08764-7069-448e-bf93-232f323218f9)
@@ -109,27 +134,6 @@ Esta interfaz esta divida en dos zonas principales, la primera es la zona 'Ubica
 La conexion de los diferentes elementos con el programa de rapid se realizo mediante la escritura o lectura de variables en el programa segun sea el caso, la logica bajo la cual esto funcionan cada una de las variables seran explicadas en la seccion 'Codigo RAPID'.
 En el repositorio se encuentra el video explicativo, este video mostrara el resultado de las simulaciones realizadas previas a la implementacion en los robots del LabSIR.
 
-
-
-
-## Codigo Rapid
-Esta seccion explicara la logica usada en el codigo de RAPID para la solucion del problema propuesto (se dejara de lado la descripcion detallada de la creacion de las rutinas de movimiento, ya que para eso solo se definen los puntos en el espacio de trabajo del robot y se recorren uno a uno) asi como la conexion con los distintos elementos de la interfaz HMI.
-![Robotstudio](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/b5ef4aab-e12d-40c4-818e-4c2aa47a3279)
-
-### Definicion de variables:
-
-![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/70239708/b72d4d27-3fe5-47ab-be20-534a53806014)
-
-Todas las variables tipos 'PERS' son aquellas que se usan para comunicarse con la interfaz HM, entes caso se usaron unicamente variables booleanas ya que unicamente era necesario indicar estados binarios. En primer lugar, las variables cuyo nombre inicia con la palabra 'trayectoria' indican a cual de las distintas ubicaciones de la estanteria debe ir el robot. Todas estas variables inician con un valor 'False' y al presionar el boton respectivo en la interfaz HM su valor cambia a 'True' haciendo que el robot se mueva. Luego se encuentran las variables que inician con la palabra 'Disp' que se usa como abreviacion de 'Disponible', estas variables estan asociadas a los led de cada una de las posiciones de los objetos de la estanteria  e indican su disponibilidad. Por lo tanto estas variables tienen un valor inicial 'True' y cuando son recogidos por el robot este cambia a 'False' indicando que en esta ubicacion de la estanteria ya no hay ningun objeto a recoger. Finalmente, las variables que inician con la palabra 'Banda' representan las tres posiciones posibles que se usan para ubicar los objetos a lo largo de la banda transportadora y estan asociadas a los led de su respectiva posicion. Ya que la banda transportadora inicia sin ningun objeto sobre ella, estas variables incian con un valor 'False' y a medida de que se ubican objetos sobre la banda se van cambiando a 'True'.
-
-### Lógica del Programa
-Luego de definir as variables se hace uso de los procesos presentados anteriormente en los diagramas de flujo:
-
-Primero, con la ayuda de un contador, se limita a que el ciclo principal solo se ejecute la cantidad de veces nesearia, en este caso son 3, debido a la cantidad de productos que se van a utilizar.
-
-Luego se espera a que alguno de los botones de la interfaz sea presionado y se evalúan, en orden, las variables relacionadas a las posciones del conjunto A y el conjunto B para que el robot realice la rutina correspondiente al botón seleccionado, finalmente se retorna a "FALSE" la variable de la rutina para que esta no se siga ejecutando la siguente vez que se realice el ciclo principal. 
-
-Después de realizar la rutina selecconada se procede a revisar en orden las posiciones en la banda. Cuando se encuentra que una está disponible el robot realiza la rutina respectiva del conjunto de trayectorias P, y se cabia el valor de la variable de la posición para indicar que esta se encuentra ocupada.
 
 
 
