@@ -17,6 +17,13 @@ Juan Barrera, Theylor Amaya, Andres Serna, Nicolas Guio, Daniel Segura, Juan Pab
 ## Descripción
 
 ## Diagrama de flujo acciones
+Para la explicación del proceso por medio de diagramas de flujo primero se hizo un diagrama del código principal, para luego realizar el respectivo diagrama de cada una de las subrutinas.
+![Principal](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/3e48a617-3f0f-4374-b8e4-5315ce587827)
+![Recoger Producto](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/aaa26204-bd25-439d-a15c-21701afc1b1f)
+![Colocar Producto](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/8400e2d5-16f7-4d70-99b1-d30866adb00b)
+![Rutinas A](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/a74977b7-564e-4d9b-b6a9-fb179ea57de9)
+![Rutinas B](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/300c934d-d081-4de4-b721-dc855754854e)
+![Rutinas P](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/07478ca1-7aa6-4cc3-b852-a6f433061374)
 
 ## Gripper
 
