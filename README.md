@@ -111,6 +111,14 @@ Para las rutinas de las trayectorias deL conjunto P se sigue una lógica muy sim
 
 ## Gripper
 
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/05389c79-0ee4-473e-a0ad-d5cb1359e416)
+
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/17a1a0d7-3f2a-41c0-8b93-61180a688a43)
+
+
+![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/e41d32e3-e2f4-4698-8016-09ce16f5d1de)
+
+
 ## Modelo robotstudio
 
 ## Modelo robotstudio
