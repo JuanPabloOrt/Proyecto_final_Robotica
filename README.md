@@ -153,5 +153,5 @@ En el repositorio se encuentra el video explicativo, este video mostrara el resu
 
 ## Presentación y video
 
-[![Final(https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/71941461/84981235-1530-4e96-bafd-a8d5c4aa2b71)](https://youtu.be/YMzTz4yVgFA)
+[![Final](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/71941461/84981235-1530-4e96-bafd-a8d5c4aa2b71)](https://youtu.be/YMzTz4yVgFA)
 
