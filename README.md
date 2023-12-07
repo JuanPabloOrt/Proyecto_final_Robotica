@@ -127,8 +127,6 @@ Para abordar el desafío de manipular objetos con diferentes geometrías, se ha 
 
 
 ## Modelo robotstudio
-
-## Modelo robotstudio
 ![Robotstudio](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144573976/b5ef4aab-e12d-40c4-818e-4c2aa47a3279)
 ### Codigo Rapid
 Esta seccion explicara la logica usada en el codigo de RAPID para la solucion del problema propuesto (se dejara de lado la descripcion detallada de la creacion de las rutinas de movimiento, ya que para eso solo se definen los puntos en el espacio de trabajo del robot y se recorren uno a uno) asi como la conexion con los distintos elementos de la interfaz HMI.
