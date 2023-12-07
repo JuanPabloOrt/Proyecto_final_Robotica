@@ -111,7 +111,7 @@ Para las rutinas de las trayectorias deL conjunto P se sigue una lógica muy sim
 
 ## Gripper
 
-SE optó por seleccionar un gripper neumático como actuador principal para el agarre de los objetos. Esta decisión se basa en varias ventajas inherentes a los sistemas neumáticos. En primer lugar, los grippers neumáticos ofrecen una gran precisión y fuerza en el agarre, lo que es crucial para manipular objetos de diferentes formas y tamaños, como cajas, tarros y tubos de crema. Esta precisión es vital para garantizar que los objetos se manipulen de manera segura y eficiente, minimizando el riesgo de daños o errores en el manejo.
+Se optó por seleccionar un gripper neumático como actuador principal para el agarre de los objetos. Esta decisión se basa en varias ventajas inherentes a los sistemas neumáticos. En primer lugar, los grippers neumáticos ofrecen una gran precisión y fuerza en el agarre, lo que es crucial para manipular objetos de diferentes formas y tamaños, como cajas, tarros y tubos de crema. Esta precisión es vital para garantizar que los objetos se manipulen de manera segura y eficiente, minimizando el riesgo de daños o errores en el manejo.
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/05389c79-0ee4-473e-a0ad-d5cb1359e416)
 
