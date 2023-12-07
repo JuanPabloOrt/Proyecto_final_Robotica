@@ -111,7 +111,14 @@ Para las rutinas de las trayectorias deL conjunto P se sigue una lógica muy sim
 
 ## Gripper
 
+SE optó por seleccionar un gripper neumático como actuador principal para el agarre de los objetos. Esta decisión se basa en varias ventajas inherentes a los sistemas neumáticos. En primer lugar, los grippers neumáticos ofrecen una gran precisión y fuerza en el agarre, lo que es crucial para manipular objetos de diferentes formas y tamaños, como cajas, tarros y tubos de crema. Esta precisión es vital para garantizar que los objetos se manipulen de manera segura y eficiente, minimizando el riesgo de daños o errores en el manejo.
+
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/05389c79-0ee4-473e-a0ad-d5cb1359e416)
+
+Además, los grippers neumáticos son conocidos por su fiabilidad y durabilidad. La simplicidad de su diseño y la ausencia de componentes eléctricos complejos reducen significativamente la probabilidad de fallos mecánicos. Esto es especialmente importante en entornos de laboratorio donde el equipo se utiliza con frecuencia y debe mantenerse en funcionamiento óptimo.
+
+Para abordar el desafío de manipular objetos con diferentes geometrías, se ha diseñado y fabricado un conjunto de extensores de agarre personalizados diseñados para tener un ángulo específico de 30° con respecto al eje Z del actuador hidráulico. Esta orientación angular es estratégica, ya que facilita notablemente el posicionamiento preciso y eficiente del gripper al manipular los objetos. Estos extensores se han producido utilizando técnicas de manufactura aditiva, específicamente con material ABS, conocido por su resistencia y flexibilidad. La elección de la manufactura aditiva permite una rápida iteración y personalización de los diseños, asegurando que los extensores se adapten perfectamente a las dimensiones y formas de los objetos a manipular. Este enfoque garantiza que el gripper neumático pueda manejar con eficacia la variedad de objetos propuestos para la guía, proporcionando una solución versátil y adaptativa a los desafíos de manipulación en el laboratorio de robótica.
+
 
 ![image](https://github.com/JuanPabloOrt/Proyecto_final_Robotica/assets/144027596/17a1a0d7-3f2a-41c0-8b93-61180a688a43)
 
