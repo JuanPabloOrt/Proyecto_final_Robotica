@@ -36,7 +36,7 @@ Para abordar el problema de optimizar los procesos de alistamiento de pedidos me
 
 
 3. **Elementos Neumáticos:**
-   Se seleccionaron y utilizaron una electroválvula 5/2 y acoples disponibles en el LabSIR para construir el gripper. Se aseguró que el diseño permitiera un fácil ajuste y posicionamiento de los dedos del gripper sobre los cilindros, minimizando la necesidad de desmontar otros componentes.
+   Se seleccionaron y utilizaron una electroválvula 5/2 y acoples disponibles en el LabSIR para construir el gripper. Se aseguró que el diseño permitiera un fácil ajuste y posicionamiento de los dedos del gripper sobre el acople presente en el laboratorio, minimizando la necesidad de desmontar otros componentes.
 
    ![Elementos Neumáticos](url_de_elementos_neumaticos)
 
