@@ -152,3 +152,5 @@ En el repositorio se encuentra el video explicativo, este video mostrara el resu
 
 ## Presentación y video
 
+[![Final](https://img.youtube.com/vi/YMzTz4yVgFA/maxresdefault.jpg)](https://youtu.be/YMzTz4yVgFA)
+
